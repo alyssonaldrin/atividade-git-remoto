@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Lifecraft";
+  src: local("LifeCraft_Font"),
+    url(./assets/fonts/LifeCraft_Font.ttf) format("truetype");
+}
+
+* {
+  font-family: "Lifecraft";
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+  background-color: #000000;
+  color: yellow;
+  align-items: center;
+}
+
+ul {
+  padding: 0 10vw;
+}
+
+header img {
+  max-height: 100%;
+}
+
+img {
+  height: 200px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
